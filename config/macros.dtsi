@@ -1,3 +1,15 @@
+macro_dquotes: macro_japanese_key{
+compatible = "zmk,behavior-macro";
+label = "macro_japanese_key";
+#binding-cells = <0>;
+bindings = <&kp LS(LCTRL(J))>;
+};
+macro_dquotes: macro_eisu_key{
+compatible = "zmk,behavior-macro";
+label = "macro_eisu_key";
+#binding-cells = <0>;
+bindings = <&kp LS(LCTRL(SEMI))>;
+};
 macro_quotes: macro_quotes{
 compatible = "zmk,behavior-macro";
 label = "macro_quotes";
