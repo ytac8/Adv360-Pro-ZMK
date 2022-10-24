@@ -2,19 +2,25 @@ macro_japanese_key: macro_japanese_key{
 compatible = "zmk,behavior-macro";
 label = "macro_japanese_key";
 #binding-cells = <0>;
-bindings = <&mt LSHIFT LC(J)>;
+bindings = <&kp LS(LC(J))>;
 };
 macro_eisu_key: macro_eisu_key{
 compatible = "zmk,behavior-macro";
 label = "macro_eisu_key";
 #binding-cells = <0>;
-bindings = <&mt LSHIFT LC(SEMI)>;
+bindings = <&kp LS(LC(SEMI))>;
 };
 macro_emoji: macro_emoji{
 compatible = "zmk,behavior-macro";
 label = "macro_emoji";
 #binding-cells = <0>;
-bindings = <&mt LCMD LC(SPACE)>;
+bindings = <&kp LG(LC(SPACE))>;
+};
+macro_alfred: macro_alfred{
+compatible = "zmk,behavior-macro";
+label = "macro_alfred";
+#binding-cells = <0>;
+bindings = <&kp LG(SPACE)>;
 };
 macro_quotes: macro_quotes{
 compatible = "zmk,behavior-macro";
