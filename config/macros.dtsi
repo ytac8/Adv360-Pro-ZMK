@@ -1,3 +1,9 @@
+macro_screenshot: macro_screenshot{
+compatible = "zmk,behavior-macro";
+label = "macro_screenshot";
+#binding-cells = <0>;
+bindings = <&kp LCMD>, <&kp LCTRL>, <&kp N4>;
+};
 macro_japanese_key: macro_japanese_key{
 compatible = "zmk,behavior-macro";
 label = "macro_japanese_key";
