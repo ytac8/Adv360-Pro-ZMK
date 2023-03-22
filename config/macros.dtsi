@@ -2,7 +2,7 @@ macro_screenshot: macro_screenshot{
 compatible = "zmk,behavior-macro";
 label = "macro_screenshot";
 #binding-cells = <0>;
-bindings = <&kp LG(LC(N4))>;;
+bindings = <&kp LG(LC(N4))>;
 };
 macro_japanese_key: macro_japanese_key{
 compatible = "zmk,behavior-macro";
