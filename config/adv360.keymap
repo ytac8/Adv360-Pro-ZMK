@@ -39,11 +39,11 @@
 
         default_layer {
             bindings = <
-   &kp ESC        &kp N1        &kp N2         &kp N3  &kp N4     &kp N5             &kp N6  &macro_screenshot     &kp N7         &kp N8     &kp N9     &kp N0          &kp MINUS  &kp EQUAL
-   &kp TAB         &kp Q         &kp W          &kp E   &kp R      &kp T              &mo 1              &mo 1      &kp Y          &kp U      &kp I      &kp O              &kp P   &kp BSLH
- &kp LCTRL         &kp A         &kp S          &kp D   &kp F      &kp G              &mo 3   &kp LEFT_COMMAND   &kp LALT                             &kp RALT  &kp RIGHT_COMMAND      &mo 3      &kp H   &kp J      &kp K    &kp L  &kp SEMI    &kp SQT
- &kp LSHFT         &kp Z         &kp X          &kp C   &kp V      &kp B              &none              &none   &kp HOME          &none      &none  &kp PG_UP              &none      &none      &kp N   &kp M  &kp COMMA  &kp DOT  &kp FSLH  &kp RSHFT
-     &mo 2  &kp CAPSLOCK  &macro_emoji  &macro_alfred  &kp F1  &kp SPACE            &kp DEL            &kp END  &kp PG_DN  &kp BACKSPACE  &kp ENTER     &kp F2           &kp LBKT   &kp RBKT  &kp GRAVE   &mo 2
+   &kp ESC        &kp N1        &kp N2         &kp N3  &kp N4     &kp N5             &kp N6       &kp C_POWER     &kp N7         &kp N8     &kp N9     &kp N0          &kp MINUS  &kp EQUAL
+   &kp TAB         &kp Q         &kp W          &kp E   &kp R      &kp T              &mo 1             &mo 1      &kp Y          &kp U      &kp I      &kp O              &kp P   &kp BSLH
+ &kp LCTRL         &kp A         &kp S          &kp D   &kp F      &kp G              &mo 3  &kp LEFT_COMMAND   &kp LALT                             &kp RALT  &kp RIGHT_COMMAND      &mo 3      &kp H   &kp J      &kp K    &kp L  &kp SEMI    &kp SQT
+ &kp LSHFT         &kp Z         &kp X          &kp C   &kp V      &kp B              &none             &none   &kp HOME          &none      &none  &kp PG_UP              &none      &none      &kp N   &kp M  &kp COMMA  &kp DOT  &kp FSLH  &kp RSHFT
+     &mo 2  &kp CAPSLOCK  &macro_emoji  &macro_alfred  &kp F1  &kp SPACE            &kp DEL           &kp END  &kp PG_DN  &kp BACKSPACE  &kp ENTER     &kp F2           &kp LBKT   &kp RBKT  &kp GRAVE   &mo 2
             >;
         };
 
